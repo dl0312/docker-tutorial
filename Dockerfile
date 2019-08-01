@@ -7,3 +7,5 @@ WORKDIR /app
 
 # Add Files
 ADD . /app
+
+CMD ["node", "server.js"]
