@@ -2,10 +2,14 @@
 FROM node:10.16.0-alpine
 
 # Create App Directory
-RUN mkdir app
+RUN mkdir -p /app
 WORKDIR /app
 
-# Add Files
-ADD . /app
+# Move Codes
+COPY package.json .
 
-CMD ["node", "server.js"]
+RUN npm install
+
+COPY src .
+
+CMD ["node", "index.js"]

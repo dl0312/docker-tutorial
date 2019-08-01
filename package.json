@@ -1,0 +1,23 @@
+{
+  "name": "docker-tutorial",
+  "version": "1.0.0",
+  "description": "## Docker란 무엇인가?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dl0312/docker-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dl0312/docker-tutorial/issues"
+  },
+  "homepage": "https://github.com/dl0312/docker-tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
